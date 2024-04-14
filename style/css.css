@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url(../assets/ttlakes/TTLakes-Bold.ttf);
+}
+
+@font-face {
+    font-family: "TT Lakes Light";
+    src: url(../assets/ttlakes/TTLakes-Light.ttf);
+}
+
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url(../assets/ttlakes/TTLakes-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+   /* Rectangle */
+position: absolute;
+width: 320px;
+height: 1024px;
+box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),-2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+background: rgb(255, 255, 255);
+}
+
+/* Header */
+
+
+
+
+
+
+
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__item {
+    color: black;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
