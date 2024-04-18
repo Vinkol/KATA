@@ -4,60 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4.1.3</title>
     <link rel="stylesheet" href="./style/css.css">
+    <title>4.1.3</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header_wrapper">
-            <button class="header-btn">
-                    <span class="header__svg">
-                        <img src="./assets/icons/exit.svg" alt="burger" class="header__exit">
-                    </span>
-            </button>
-            <img src="./assets/icons/logo.svg" alt="logo" class="header-logo">
-            <button class="header-btn">
-                <span class="header__svg">
-                    <img src="/assets/icons/search.svg" alt="search" class="header__search">
-                </span>
-            </button>
-        </div>
-    </header>
-    <main class="main">
-        <ul class="main__list">
-            <li class="main__item"><a href="#">Ремонт техники</a></li>
-            <li class="main__item"><a href="index.html">Услуги и сервисы</a></li>
-            <li class="main__item"><a href="#">Корпоративным клиентам</a></li>
-            <li class="main__item"><a href="#">Продавцам техники</a></li>
-            <li class="main__item"><a href="#">Партнерам</a></li>
-            <li class="main__item"><a href="#">Производителям</a></li>
-            <li class="main__item"><a href="#">Наши сервисные центры</a></li>
-            <li class="main__item"><a href="#">Контакты</a></li>
-        </ul>
-    </main>
-    <footer class="footer">
-        <div class="footer-contact"> 
-            <div class="footer-btn">
-                <button class="btn">
-                    <img src="/assets/icons/call.svg" alt="call" class="footer-btn__call">
-                </button>
-                <button class="btn">
-                    <img src="/assets/icons/chat.svg" alt="chat" class="footer-btn__chat">
-                </button>
-                <button class="btn">
-                    <img src="/assets/icons/profile.svg" alt="profile" class="footer-btn__profile">
-                </button>
+    <aside class="aside">
+        <nav class="nav">
+            <header class="header">
+                <button type="buttom" class="header__btn header__btn--exit"></button>
+                <a href="#" alt="logo" class="header__logo header__logo--img"></a>
+                <button type="button" class="header__btn header__btn--search"></button>
+            </header>
+            <main class="main">
+                <ul class="main__list">
+                    <li class="main__item">
+                        <a href="#" class="main__link">Ремонт техники</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Услуги и сервисы</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Корпоративным клиентам</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Продавцам техники</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Партнерам</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Производителям</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Наши сервисные центры</a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link">Контакты</a>
+                    </li>
+                </ul>
+            </main>
+        </nav>
+        <footer class="footer"> 
+            <div class="footer__btn">
+                <button class="btn footer__btn--call" type="button"></button>
+                <button class="btn footer__btn--chat" type="button"></button>
+                <button class="btn footer__btn--profile" type="button"></button>
             </div>
-            <a class="footer-mail">mail@cps.com</a>
-            <a class="footer-phone">8 800 890 8900</a>
-        </div>
-        <div class="lang">
-            <ul>
-                <li>RU</li>
-                <li>EN</li>
-                <li>CH</li>
-            </ul> 
-        </div>
-    </footer>
+                <a class="footer__mail" href="mailto:mail@cps.com" type="mail">mail@cps.com</a>
+                <a class="footer__phone" href="tel:88008908900" type="phone">8 800 890 8900</a>
+            <div class="footer__lang">
+                <button class="footer__lang--btn" type="button">RU</button>
+                <button class="footer__lang--btn" type="button">EN</button> 
+                <button class="footer__lang--btn" type="button">CH</button>  
+            </div>
+        </footer>
+    </aside>
 </body>
 </html>
